@@ -43,7 +43,7 @@ The application uses MySQL database. To configure the database connection:
 1. Open `src/main/resources/application.properties`
 2. Update the following properties:
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/employee_management?useSSL=false
+   spring.datasource.url=jdbc:mysql://localhost:3306/employee_management
    spring.datasource.username=your_username
    spring.datasource.password=your_password
    ```
